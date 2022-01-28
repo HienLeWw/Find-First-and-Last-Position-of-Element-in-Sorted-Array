@@ -19,7 +19,8 @@
   For more details: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
   
 # Idea:
-  We need four variables: left, right, first_pos,last_pos
+  We need four variables: left, right, first_pos,last_pos.
+  
     - left:
       + Going from the first index to the lsat index of the given array.
       + Once "array[left] = target", we assign 'left' to 'last_pos'
@@ -30,6 +31,8 @@
       + Once "array[right] = target", we assign 'right' to 'first_pos'
       + The final value of 'first_pos' is The First Position Of Target.
 # Code:
+
+
   vector<int> searchRange(vector<int>& nums, int target) {
         int count(0);
         int len = nums.size();
