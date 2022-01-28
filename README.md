@@ -19,16 +19,16 @@
   For more details: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
   
 # Idea:
-  We need four variables: left, right, first_pos,last_pos.
+  We need four variables: left, right, first_pos, last_pos.
   
     - left:
       + Going from the first index to the lsat index of the given array.
-      + Once "array[left] = target", we assign 'left' to 'last_pos'
+      + Once "array[left] = target", we assign 'left' to 'last_pos'.
       + The final value of 'last_pos' is The Last Position Of Target.
       
     - right:
       + Going from the last index to the first index of the given array.
-      + Once "array[right] = target", we assign 'right' to 'first_pos'
+      + Once "array[right] = target", we assign 'right' to 'first_pos'.
       + The final value of 'first_pos' is The First Position Of Target.
 # Code:
   Here is my completed function: 
