@@ -22,7 +22,7 @@
   We need four variables: left, right, first_pos, last_pos.
   
     - left:
-      + Going from the first index to the lsat index of the given array.
+      + Going from the first index to the last index of the given array.
       + Once "array[left] = target", we assign 'left' to 'last_pos'.
       + The final value of 'last_pos' is The Last Position Of Target.
       
