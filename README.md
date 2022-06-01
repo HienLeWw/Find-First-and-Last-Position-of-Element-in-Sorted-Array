@@ -24,12 +24,12 @@
     - left:
       + Going from the first index to the last index of the given array.
       + Once "array[left] = target", we assign 'left' to 'last_pos'.
-      + The final value of 'last_pos' is The Last Position Of Target.
+      + The last value of 'last_pos' is The Last Position Of Target.
       
     - right:
       + Going from the last index to the first index of the given array.
       + Once "array[right] = target", we assign 'right' to 'first_pos'.
-      + The final value of 'first_pos' is The First Position Of Target.
+      + The last value of 'first_pos' is The First Position Of Target.
 # Code:
   Here is my completed function: 
 
